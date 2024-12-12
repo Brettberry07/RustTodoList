@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Birthday",
+    "is_completed": true,
+    "notes": "this was when I was born",
+    "due_date": "10/30/2007"
+  },
+  {
+    "name": "jimmy",
+    "is_completed": false,
+    "notes": "jimmy is a cool guy",
+    "due_date": "9/11/2022"
+  }
+]

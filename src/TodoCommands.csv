@@ -1,0 +1,7 @@
+letter,name,description
+a,add,add a new task to the list
+d,delete,delete a task from the todo list
+e,edit,edit an existing task from the todo list
+q,quit,exit the program
+h,help,displays all commands and their description
+l,list,displays all the todo items
