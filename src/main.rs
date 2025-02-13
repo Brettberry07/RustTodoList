@@ -110,8 +110,8 @@ fn save_to_json( todos: &Vec<TodoItem>, filename: &str ) -> Result<(), Box<dyn E
 
 fn load_from_json( filename: &str ) -> Result<Vec<TodoItem>, Box<dyn Error>> {
     let data = fs::read_to_string(filename)?;         //read the file into a string
-    let todos: Vec<TodoItem> = serde_json::from_str(&data)?;       //parse the data into the ToDoItem struct, into a vec
-    Ok(todos)                                                     //return status
+    let todos: Vec<TodoItem> = serde_json::from_str(&data)?;        //parse the data into the ToDoItem struct, into a vec
+    Ok(todos)                                                       //return status
 }
 
 //managing commands from csv
